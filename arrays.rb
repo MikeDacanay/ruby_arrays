@@ -17,6 +17,17 @@ c = ["barracade", "magic", "fire", "wow", "elements"]
 
 # puts c.sort {|a, b| b <=> a}
 
-e = b.slice!(2)
-puts e
-print b
+# e = b.slice!(2)
+# puts e
+# print b
+
+# print b.shuffle
+# print b.shuffle
+# print b.shuffle
+# print b.shuffle
+
+# puts b.join
+
+# puts b.insert(3, "hello")
+
+puts b.values_at(1,3,6)
